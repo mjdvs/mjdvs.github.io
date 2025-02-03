@@ -7,37 +7,64 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <aside>
+    <div class="wrapper">
+        <header>
             <img src="path/to/photo.jpg" alt="Michael Davies" class="profile-photo">
             <h1>Michael Davies</h1>
-            <p>Economist</p>
-            <p>Contact details here</p>
-        </aside>
-        <main>
-            <section id="about">
-                <h2>About Me</h2>
-                <p><!-- Add a brief introduction about yourself here. --></p>
-            </section>
-            <section id="working-papers">
-                <h2>Working Papers</h2>
-                <p><!-- Add details about your working papers here. --></p>
-                <button class="abstract-btn">Abstract</button>
-                <button class="media-btn">Media</button>
-            </section>
-            <section id="work-in-progress">
-                <h2>Work in Progress</h2>
-                <p><!-- Add details about your work in progress here. --></p>
-            </section>
-            <section id="teaching">
-                <h2>Teaching</h2>
-                <p><!-- Add information about your teaching experience and courses here. --></p>
-            </section>
-        </main>
+            <p id="site-description">
+                <b>Economist</b><br>
+                Department of Economics<br>
+                Your University<br>
+                <br>
+                <b>Contact:</b><br>
+                <a href="mailto:your.email@example.com">your.email@example.com</a><br>
+                <br>
+                <a href="path/to/cv.pdf">Curriculum Vitae</a>
+            </p>
+        </header>
+        <section>
+            <p>I study questions in economics by applying various methods and insights. My research focuses on various topics and often employs large-scale datasets.</p>
+            <p>I received my Ph.D. in Economics from Your University in 2024 and my B.A. in Economics from Another University in 2018.</p>
+            <h2 id="working-papers">Working Papers</h2>
+            <h3 id="paper-title-1">Paper Title 1</h3>
+            <div class="accordion-container">
+                <button class="accordion-btn">Abstract</button>
+                <a href="path/to/paper1.pdf" class="accordion-btn file-link" target="_blank">PDF</a>
+                <button class="accordion-btn" onclick="window.location.href='#data-code-1'">Data &amp; Code</button>
+            </div>
+            <div class="accordion-content" id="content1">
+                <p>Abstract content for Paper Title 1.</p>
+            </div>
+            <h3 id="paper-title-2">Paper Title 2</h3>
+            <div class="accordion-container">
+                <button class="accordion-btn">Abstract</button>
+                <a href="path/to/paper2.pdf" class="accordion-btn file-link" target="_blank">PDF</a>
+            </div>
+            <div class="accordion-content" id="content2">
+                <p>Abstract content for Paper Title 2.</p>
+            </div>
+            <h2 id="works-in-progress">Works in Progress</h2>
+            <h3 id="work-title-1">Work Title 1</h3>
+            <div class="accordion-container">
+                <button class="accordion-btn">Abstract</button>
+            </div>
+            <div class="accordion-content" id="content3">
+                <p>Abstract content for Work Title 1.</p>
+            </div>
+            <h2 id="other-papers">Other Papers</h2>
+            <h3 id="other-paper-title-1">Other Paper Title 1</h3>
+            <div class="accordion-container">
+                <button class="accordion-btn">Summary</button>
+                <a href="path/to/other-paper1.pdf" class="accordion-btn file-link" target="_blank">Link</a>
+            </div>
+            <div class="accordion-content" id="content4">
+                <p>Summary content for Other Paper Title 1.</p>
+            </div>
+            <h2 id="data-code">Data &amp; Code</h2>
+            <h3 id="data-code-title-1">Data &amp; Code Title 1</h3>
+            <p>Data and code description.</p>
+        </section>
     </div>
-    <footer>
-        <p>&copy; 2023 Michael Davies</p>
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>

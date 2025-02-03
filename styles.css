@@ -7,6 +7,35 @@ body {
     background: #f4f4f4;
 }
 
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #666;
+}
+
 .container {
     display: flex;
     width: 80%;
@@ -22,21 +51,47 @@ aside {
     text-align: center;
 }
 
-.profile-photo {
-    width: 100%;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-}
-
 main {
     flex: 3;
     padding: 2rem;
 }
 
 section {
+    padding: 2rem 0;
     margin-bottom: 2rem;
     background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    margin-top: 2rem;
+}
+
+.accordion-container {
+    margin-top: 1rem;
+}
+
+.accordion-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.accordion-btn.file-link {
+    background: #2196F3;
+}
+
+.accordion-content {
+    display: none;
+    margin-top: 1rem;
     padding: 1rem;
+    background: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
