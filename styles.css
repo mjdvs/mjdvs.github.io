@@ -13,8 +13,9 @@ body {
     overflow: hidden;
 }
 
-header {
-    background: #333;
+/* Remove the header styles */
+/* header {
+    background: #4CAF50;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -28,9 +29,10 @@ header h1 {
 header p {
     margin: 0;
     font-size: 1.2rem;
-}
+} */
 
-nav {
+/* Remove the navigation menu styles */
+/* nav {
     background: #444;
     color: #fff;
     padding: 0.5rem 0;
@@ -51,7 +53,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
-}
+} */
 
 main {
     padding: 2rem 0;
