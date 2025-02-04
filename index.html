@@ -1,91 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Michael Davies</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Source Sans Pro', sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-            color: #000000;
-            line-height: 1.6;
+            padding: 45px;
+            line-height: 1.44;
+            color: #727272;
+            background: #fff;
+            font-size: 90%;
         }
+
         .container {
             display: grid;
             grid-template-columns: 1fr 3fr;
-            max-width: 1200px;
+            max-width: 810px;
             margin: 0 auto;
-            padding: 2rem;
         }
+
         .sidebar {
-            padding-right: 2rem;
+            padding-right: 1.8rem;
             border-right: 1px solid #ddd;
         }
+
         .sidebar img {
-            width: 231px;
-            height: 308px;
+            width: 208px;
+            height: 277px;
             border-radius: 0;
             display: block;
-            margin-bottom: 1rem;
+            margin-bottom: 0.9rem;
         }
+
         .sidebar h1 {
-            font-size: 1.5rem;
-            margin: 0 0 1rem 0;
+            font-size: 1.08rem;
+            margin: 0 0 0.9rem 0;
         }
+
         .content {
-            padding-left: 2rem;
+            padding-left: 1.8rem;
         }
+
         section {
-            margin-bottom: 2rem;
+            margin-bottom: 1.8rem;
         }
+
         h2 {
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-            color: #000000;
+            font-size: 1.26rem;
+            margin-bottom: 0.45rem;
+            color: #393939;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+
+        p {
+            font-size: 0.81rem;
+            color: #000;
         }
-        ul li {
-            margin-bottom: 0.5rem;
-        }
+
         a {
-            color: #000000;
+            color: #007BFF;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
-        .collapsible {
-            cursor: pointer;
-            text-decoration: underline;
+
+        ul {
+            list-style-type: disc;
+            padding-left: 1.35rem;
+            /* margin-top: 0.45rem; */
         }
-        .content-collapsible {
-            display: none;
-            margin-top: 0.5rem;
+
+        section h2 + div p {
+            margin-bottom: 0.2rem;
         }
-        /* Media query for mobile devices */
+
+        section h2 + div ul {
+            margin-top: 0.45rem;
+            padding-left: 1.5rem; /* To maintain indentation */
+        }
+
+
+        ul li {
+            font-size: 0.81rem;
+            color: #000;
+            margin-top: 0rem;
+        }
+
         @media (max-width: 768px) {
             .container {
-                display: block;
-                padding: 1rem;
+                grid-template-columns: 1fr;
             }
+
             .sidebar {
                 padding-right: 0;
                 border-right: none;
                 text-align: center;
             }
+
             .content {
                 padding-left: 0;
             }
+
             .sidebar img {
-                width: 150px;
+                width: 135px;
                 height: auto;
-                margin: 0 auto 1rem auto;
+                margin: 0 auto 0.9rem auto;
             }
         }
     </style>
@@ -114,29 +140,62 @@
             <p>Research Affiliate, MIT Sloan</p>
             <p>Research Project Manager, School of Public Policy and Practice</p>
             <p>Email: <a href="mailto:mjdavies@mit.edu">mjdavies@mit.edu</a></p>
-            <p><a href="path/to/cv.pdf">Curriculum Vitae</a></p>
+            <p><a href="feb2024_cv.pdf" target="_blank">Curriculum Vitae<img src="newwindow.png" alt="Opens in new window" style="width: 12px; height: 12px;"></a></p>
         </aside>
         <main class="content">
             <section>
-                <p>Hello! I </p>
+                <p>Hello! I’m Michael. I currently work with Professors Anna Stansbury (MIT Sloan) and R. Jisung Park (UPenn) on labor economics research into workplace safety. Before moving into academic research, I worked in British civil society on economic policy reform across a range of research, organizing, and strategic roles. I hold a BA in Philosophy, Politics, and Economics from the University of Oxford, and an MPP from Yale University.</p>
+                <p>My research interests lie in labour economics and political economy. My CV can be found <a href="feb2024_cv.pdf" target="_blank">here <img src="newwindow.png" alt="Opens in new window" style="width: 12px; height: 12px;"></a>, and you can contact me at <a href="mailto:mjdavies@mit.edu">mjdavies@mit.edu</a>.</p>
             </section>
 
             <section>
                 <h2>Working Papers</h2>
-                <ul>
-                    <li>
-                        <h3>Minimum Wages and Workplace Injuries</h3>
-                        <p><i>Michael Davies, R. Jisung Park, and Anna Stansbury</i></br>
-                        <i><strong>Media coverage:</strong> <a href="https://www.npr.org/2025/01/28/g-s1-45056/economy-money-papers-explained">NPR</a>, <a href="https://marginalrevolution.com/marginalrevolution/2025/01/gordon-tullock-was-right.html">Marginal Revolution</a></i></p>
+                <div>
+                    <p><strong><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5062047">Minimum Wages and Workplace Injuries <img src="newwindow.png" alt="Opens in new window" style="width: 12px; height: 12px;"></a></strong> (<i>with Anna Stansbury and R. Jisung Park</i>)
+                    <ul style="margin-top: 0;">
+                        <li><strong>Media coverage:</strong> <a href="https://www.npr.org/2025/01/28/g-s1-45056/economy-money-papers-explained" target="_blank">NPR</a>, <a href="https://marginalrevolution.com/marginalrevolution/2025/01/gordon-tullock-was-right.html" target="_blank">Marginal Revolution</a></li>
+                        <li><strong>Abstract:</strong> Do minimum wage changes affect workplace health and safety? Using the universe of workers' compensation claims in California over 2000-2019, we estimate whether minimum wage shocks affect the rate of workplace injuries. Our identification exploits both geographic variation in state-and city-level minimum wages and local occupation-level variation in exposure to minimum wage changes. We find that a 10% increase in the minimum wage increases the injury rate by 11% in an occupation-metro area labor market which is fully exposed to the minimum wage increase. Our results imply an elasticity of the workplace injury rate to minimum-wage-induced wage changes of 1.4. We find particularly large effects on injuries relating to cumulative physical strain, suggesting that employers respond to minimum wage increases by intensifying the pace of work, which in turn increases injury risk.</li>
+                    </ul></p>
+                </div>
+                <!-- Repeat for other papers -->
+            </section>
 
-                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5062047">PDF on SSRN</a> | 
-                        <span class="collapsible">Abstract</span>
-                        <div class="content-collapsible">
-                            <p>Do minimum wage changes affect workplace health and safety? Using the universe of workers' compensation claims in California over 2000-2019, we estimate whether minimum wage shocks affect the rate of workplace injuries. Our identification exploits both geographic variation in state-and city-level minimum wages and local occupation-level variation in exposure to minimum wage changes. We find that a 10% increase in the minimum wage increases the injury rate by 11% in an occupation-metro area labor market which is fully exposed to the minimum wage increase. Our results imply an elasticity of the workplace injury rate to minimum-wage-induced wage changes of 1.4. We find particularly large effects on injuries relating to cumulative physical strain, suggesting that employers respond to minimum wage increases by intensifying the pace of work, which in turn increases injury risk.</p>
-                        </div>
-                    </li>
-                    <!-- Repeat for other papers -->
-                </ul>
+            <section>
+                <h2>Work in Progress</h2>
+                <div>
+                    <p><strong>The Implications of Heterogeneity of Political Attitude Stability by Income</strong></p>
+                </div>
+                <div>
+                    <p><strong>Bridging Information Gaps to Smooth Labor Market Entry</strong></p>
+                </div>
+                <div>
+                    <p><strong>Public Attitudes Towards Climate Migration</strong></p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Teaching Experience</h2>
+                <div>
+                    <p><strong>ECON 117: Introduction to Data Analysis & Econometrics</strong><br>
+                    Teaching Fellow for Joseph Altonji, Spring 2023, Yale College.</p>
+                </div>
+                <div>
+                    <p><strong>ENV 840/LAW 21754: Climate Change Policy and Perspectives</strong><br>
+                    Teaching Fellow for Robert Klee, Fall 2022, Yale School of the Environment.</p>
+                </div>
+                <div>
+                    <p><strong>MGT 582: The Future of Global Finance</strong><br>
+                    Teaching Fellow for Jeffrey Garten, Fall 2022, Yale School of Management.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Presentations</h2>
+                <div>
+                    <p>AEA Paper Session (Presenter), ASSA Annual Meeting (San Francisco, Jan 2025)</br>
+                    Roundtable Session (Presenter), People and Organizations (Wharton, Sep 2024).</p> 
+                </div>
+
             </section>
 
             <!-- Additional sections as needed -->
