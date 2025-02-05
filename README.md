@@ -1,24 +1,4 @@
-## Hi there 👋
-push
-## About Me
-
-// Add a brief introduction about yourself here.
-
-## Research
-
-// Add details about your research interests and projects here.
-
-## Publications
-
-// List your publications here.
-
-## Teaching
-
-// Add information about your teaching experience and courses here.
-
-## Contact
-
-// Provide your contact information here.
+Personal website.
 
 <!--
 **mjdvs/mjdvs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
